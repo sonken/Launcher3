@@ -1,0 +1,90 @@
+﻿07-26 08:48:07.813 20661-20661/? E/ActivityThread: Activity com.cybertron.unit.assistant.MainActivity has leaked ServiceConnection com.cybertron.unit.assistant.BaseActivity$3@5f368fd that was originally bound here
+                                                   android.app.ServiceConnectionLeaked: Activity com.cybertron.unit.assistant.MainActivity has leaked ServiceConnection com.cybertron.unit.assistant.BaseActivity$3@5f368fd that was originally bound here
+                                                       at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:1092)
+                                                       at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:986)
+                                                       at android.app.ContextImpl.bindServiceCommon(ContextImpl.java:1303)
+                                                       at android.app.ContextImpl.bindService(ContextImpl.java:1286)
+                                                       at android.content.ContextWrapper.bindService(ContextWrapper.java:604)
+                                                       at com.cybertron.unit.assistant.BaseActivity.bindService(BaseActivity.java:477)
+                                                       at com.cybertron.unit.assistant.BaseActivity.onCreate(BaseActivity.java:105)
+                                                       at com.cybertron.unit.assistant.MainActivity.onCreate(MainActivity.java:133)
+                                                       at android.app.Activity.performCreate(Activity.java:6266)
+                                                       at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1107)
+                                                       at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2369)
+                                                       at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2476)
+                                                       at android.app.ActivityThread.-wrap11(ActivityThread.java)
+                                                       at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1344)
+                                                       at android.os.Handler.dispatchMessage(Handler.java:102)
+                                                       at android.os.Looper.loop(Looper.java:148)
+                                                       at android.app.ActivityThread.main(ActivityThread.java:5417)
+                                                       at java.lang.reflect.Method.invoke(Native Method)
+                                                       at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:746)
+                                                       at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:636)
+07-26 08:50:26.048 23550-23550/? E/dex2oat: Failed to create oat file: /data/dalvik-cache/arm/data@app@com.cybertron.unit.assistant-1@split_lib_dependencies_apk.apk@classes.dex: Permission denied
+07-26 08:50:26.649 23553-23553/? E/dex2oat: Failed to create oat file: /data/dalvik-cache/arm/data@app@com.cybertron.unit.assistant-1@split_lib_slice_0_apk.apk@classes.dex: Permission denied
+07-26 08:50:26.767 23556-23556/? E/dex2oat: Failed to create oat file: /data/dalvik-cache/arm/data@app@com.cybertron.unit.assistant-1@split_lib_slice_1_apk.apk@classes.dex: Permission denied
+07-26 08:50:26.866 23559-23559/? E/dex2oat: Failed to create oat file: /data/dalvik-cache/arm/data@app@com.cybertron.unit.assistant-1@split_lib_slice_2_apk.apk@classes.dex: Permission denied
+07-26 08:50:26.972 23561-23561/? E/dex2oat: Failed to create oat file: /data/dalvik-cache/arm/data@app@com.cybertron.unit.assistant-1@split_lib_slice_3_apk.apk@classes.dex: Permission denied
+07-26 08:50:27.136 23563-23563/? E/dex2oat: Failed to create oat file: /data/dalvik-cache/arm/data@app@com.cybertron.unit.assistant-1@split_lib_slice_4_apk.apk@classes.dex: Permission denied
+07-26 08:50:27.254 23565-23565/? E/dex2oat: Failed to create oat file: /data/dalvik-cache/arm/data@app@com.cybertron.unit.assistant-1@split_lib_slice_5_apk.apk@classes.dex: Permission denied
+07-26 08:50:27.409 23567-23567/? E/dex2oat: Failed to create oat file: /data/dalvik-cache/arm/data@app@com.cybertron.unit.assistant-1@split_lib_slice_6_apk.apk@classes.dex: Permission denied
+07-26 08:50:27.509 23569-23569/? E/dex2oat: Failed to create oat file: /data/dalvik-cache/arm/data@app@com.cybertron.unit.assistant-1@split_lib_slice_7_apk.apk@classes.dex: Permission denied
+07-26 08:50:27.603 23571-23571/? E/dex2oat: Failed to create oat file: /data/dalvik-cache/arm/data@app@com.cybertron.unit.assistant-1@split_lib_slice_8_apk.apk@classes.dex: Permission denied
+07-26 08:50:27.707 23574-23574/? E/dex2oat: Failed to create oat file: /data/dalvik-cache/arm/data@app@com.cybertron.unit.assistant-1@split_lib_slice_9_apk.apk@classes.dex: Permission denied
+07-26 08:57:27.393 1593-1593/? E/PushClient_PacketReader: remote-server-error(502) Heartbeat unreached
+                                                              at wb.g(Unknown Source)
+                                                              at wg.d(Unknown Source)
+                                                              at com.iflytek.pushclient.core.h.o.run(Unknown Source)
+                                                              at android.os.Handler.handleCallback(Handler.java:743)
+                                                              at android.os.Handler.dispatchMessage(Handler.java:95)
+                                                              at android.os.Looper.loop(Looper.java:148)
+                                                              at android.app.ActivityThread.main(ActivityThread.java:5417)
+                                                              at java.lang.reflect.Method.invoke(Native Method)
+                                                              at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:746)
+                                                              at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:636)
+07-26 08:57:27.395 1593-1593/? E/PushClient_PushConnection: remote-server-error(502) Heartbeat unreached
+                                                                at wb.g(Unknown Source)
+                                                                at wg.d(Unknown Source)
+                                                                at com.iflytek.pushclient.core.h.o.run(Unknown Source)
+                                                                at android.os.Handler.handleCallback(Handler.java:743)
+                                                                at android.os.Handler.dispatchMessage(Handler.java:95)
+                                                                at android.os.Looper.loop(Looper.java:148)
+                                                                at android.app.ActivityThread.main(ActivityThread.java:5417)
+                                                                at java.lang.reflect.Method.invoke(Native Method)
+                                                                at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:746)
+                                                                at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:636)
+07-26 09:07:33.735 1593-1593/? E/PushClient_PacketReader: remote-server-error(502) Heartbeat unreached
+                                                              at wb.g(Unknown Source)
+                                                              at wg.d(Unknown Source)
+                                                              at com.iflytek.pushclient.core.h.o.run(Unknown Source)
+                                                              at android.os.Handler.handleCallback(Handler.java:743)
+                                                              at android.os.Handler.dispatchMessage(Handler.java:95)
+                                                              at android.os.Looper.loop(Looper.java:148)
+                                                              at android.app.ActivityThread.main(ActivityThread.java:5417)
+                                                              at java.lang.reflect.Method.invoke(Native Method)
+                                                              at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:746)
+                                                              at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:636)
+07-26 09:07:33.737 1593-1593/? E/PushClient_PushConnection: remote-server-error(502) Heartbeat unreached
+                                                                at wb.g(Unknown Source)
+                                                                at wg.d(Unknown Source)
+                                                                at com.iflytek.pushclient.core.h.o.run(Unknown Source)
+                                                                at android.os.Handler.handleCallback(Handler.java:743)
+                                                                at android.os.Handler.dispatchMessage(Handler.java:95)
+                                                                at android.os.Looper.loop(Looper.java:148)
+                                                                at android.app.ActivityThread.main(ActivityThread.java:5417)
+                                                                at java.lang.reflect.Method.invoke(Native Method)
+                                                                at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:746)
+                                                                at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:636)
+07-26 09:17:23.747 375-584/? E/RKPowerHAL: Error opening /sys/devices/system/cpu/cpufreq/interactive/input_boost: No such file or directory
+07-26 09:17:23.753 375-584/? E/RKPowerHAL: Error opening /sys/devices/system/cpu/cpu2/online: Permission denied
+07-26 09:17:23.753 375-584/? E/RKPowerHAL: Error opening /sys/devices/system/cpu/cpu3/online: Permission denied
+07-26 09:17:23.753 375-584/? E/RKPowerHAL: Error opening /sys/devices/system/cpu/cpu4/online: No such file or directory
+07-26 09:17:23.753 375-584/? E/RKPowerHAL: Error opening /sys/devices/system/cpu/cpu5/online: No such file or directory
+07-26 09:17:23.753 375-584/? E/RKPowerHAL: Error opening /sys/devices/system/cpu/cpu6/online: No such file or directory
+07-26 09:17:23.753 375-584/? E/RKPowerHAL: Error opening /sys/devices/system/cpu/cpu7/online: No such file or directory
+07-26 09:17:23.795 375-563/? E/native: do suspend false
+07-26 09:17:23.853 375-1014/? E/SensorService: Error activating sensor 3 (Operation not permitted)
+07-26 09:17:29.061 23535-23642/? E/MainActivity: start
+07-26 09:17:29.061 23535-23642/? E/MainActivity: 13222k
+07-26 09:17:29.653 23535-23535/? E/RecyclerView: No adapter attached; skipping layout
+07-26 09:17:30.155 23535-23535/? E/RecyclerView: No adapter attached; skipping layout
