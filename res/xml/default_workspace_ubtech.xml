@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<favorites xmlns:launcher="http://schemas.android.com/apk/res-auto/com.android.launcher3">
+
+    <!-- Hotseat -->
+    <include launcher:workspace="@xml/dw_ubtech_tablet_hotseat" />
+
+    <!-- Alarm Clock -->
+    <appwidget
+        launcher:className="com.android.alarmclock.DigitalAppWidgetProvider"
+        launcher:packageName="com.android.deskclock"
+        launcher:screen="0"
+        launcher:spanX="4"
+        launcher:spanY="2"
+        launcher:x="1"
+        launcher:y="1" />
+
+</favorites>
