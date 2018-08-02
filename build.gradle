@@ -15,29 +15,16 @@ android {
     compileSdkVersion 25
     buildToolsVersion "25.0.0"
 
-    signingConfigs {
-        cybertron {
-            keyAlias rootProject.ext.keystore['keyAlias']
-            keyPassword rootProject.ext.keystore['keyPassword']
-            storeFile file(rootProject.ext.keystore['storeFile'])
-            storePassword rootProject.ext.keystore['storePassword']
-        }
-    }
-
     defaultConfig {
         applicationId "com.cybertron.launcher3"
         minSdkVersion 21
         targetSdkVersion 25
-        versionCode rootProject.ext.versionCode
-        versionName rootProject.ext.versionName
     }
     buildTypes {
 
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
-            versionNameSuffix "_release"
-            signingConfig signingConfigs.cybertron
         }
 
         debug {
@@ -46,8 +33,6 @@ android {
     }
     sourceSets {
         main {
-            res.srcDirs = ['res', 'WallpaperPicker/res']
-            main.java.srcDirs = ['src', 'WallpaperPicker/src']
             manifest.srcFile 'AndroidManifest.xml'
             proto.srcDirs 'protos/'
         }
@@ -65,16 +50,6 @@ android {
 repositories {
     mavenCentral()
 }
-
-build.doLast {
-    copy {
-        from("$buildDir/outputs/apk") {
-            include '**/*release.apk'
-        }
-        into(releaseOutputs)
-    }
-}
-
 
 dependencies {
     compile 'com.android.support:support-v4:25.0.0'
